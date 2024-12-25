@@ -1,0 +1,69 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Comfortaa", serif;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  background-color: #08aeea;
+  background-image: linear-gradient(0deg, #08aeea 0%, #2af598 100%);
+  color: white;
+  height: 80px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Vinyl", serif;
+}
+
+header img {
+  height: 80%;
+}
+
+main {
+  display: flex;
+  height: 88vh;
+}
+
+nav {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-right: 2px solid #8d8c8b;
+  background-color: #efecec;
+  background-image: linear-gradient(90deg, #efecec 0%, #d0cbc6 100%);
+}
+
+.toDo,
+.projects,
+.notes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.contentArea {
+  width: 75%;
+}
+
+.addBtn {
+  border-radius: 100%;
+  background-color: #08aeea;
+  background-image: linear-gradient(0deg, #08aeea 0%, #2af598 100%);
+  color: white;
+  font-size: 3rem;
+  padding: 10px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border: none;
+}
