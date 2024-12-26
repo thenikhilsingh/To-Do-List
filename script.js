@@ -24,3 +24,8 @@ addbtn.addEventListener("click", () => {
     addbtnpage.style.cssText = "display:none;";
   }
 });
+
+
+function displayTodos() {
+    
+}

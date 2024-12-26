@@ -85,7 +85,6 @@ nav {
 }
 
 .homepage {
-  /* position: absolute; */
   width: 100vw;
 }
 
@@ -93,10 +92,8 @@ nav {
   width: 70vw;
   height: 80vh;
   border: 2px solid;
-  /* position: relative; */
-  /* top: 60px;
-  left: 200px; */
   display: none;
+  margin: 65px 0px 0 200px;
 }
 
 .addbtnheader {
@@ -112,7 +109,6 @@ nav {
 .addbtnmain {
   height: 71vh;
   display: flex;
-  
 }
 
 .addbtnnav {
